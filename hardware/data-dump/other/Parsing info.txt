@@ -1,0 +1,17 @@
+NMEA ANALYSER Version 1.8
+0 invalid lines
+0 bad header and termination
+0 invalid checksums
+0 corrupted messages
+116 detected messages
+35 GGA
+9 GSA
+0 GSV
+35 RMC
+0 GLL
+0 ZDA
+36 VTG
+1 Not supported
+117 TOTAL LINES in log
+
+Unsupported message: $GNTXT,01,01,00,txbuf alloc*61
