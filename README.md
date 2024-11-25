@@ -23,19 +23,89 @@ A small, internal, and open-source GPS module for ICOM IC-5060 and IC-6060 radio
 
 ## Introduction
 
-> TODO
+The UT-GPS module is a small, internal, and open-source GPS module for ICOM IC-5060 and IC-6060 radios. It is designed to fit in the internal expansion port, with the same form factor as the ICOM UT-126H digital module, and provide a UART NMEA GPS module with 4800/9600 baud rate. The module is designed to be compatible with a 5V supply, and provide a 5V antenna supply. The module has a UFL antenna connector, and test pads for VCC, GND, TX, RX and PPS.  
+This module was created to replace existing external GPS modules which are often out of stock, soon to be end of life, expensive, and only compatible with GPS satellites. The UT-GPS module is designed to be compatible with GPS, GLONASS, Galileo, and Beidou satellites, and provide  more reliable position data.
 
 ## First revision
 
-> TODO
-
 ### Details
 
-> TODO
+The first revision uses the u-blox MAX-M10 GPS module, and omits battery backup to facilitate shipping (no lithium batteries).
+
+It was first tested on terrain in Burundi, with 10 hand-assembled prototypes; after validating those prototypes 50 assembled units were ordered from [Aisler](https://aisler.net/), 35 of which have been deployed in Central African Republic.
 
 ### Installation
 
-> TODO
+#### 1. Remove the radio from the vehicle
+
+Refer to the installer/mechanic/radio operator who installed the radio for exact steps to remove the radio from the vehicle.
+
+> TODO : Add picture
+
+#### 1b. Remove existing GPS module
+
+If an existing GPS module is present, remove it from the vehicle.
+
+#### 2. Remove the bottom cover of the radio
+
+> TODO : Add picture
+
+#### 3. Cut the plastic tab next to the power cable at the back of the housing
+
+> TODO : Add picture
+> Note : be careful not to cut the power cables.
+
+#### 4. If not connected, connect the U.FL to SMA cable to the UT-GPS module
+
+> TODO : Add picture
+
+#### 5. Insert the UT-GPS module in the expansion port
+
+> TODO : Add picture
+
+#### 5b. If not present, put foam pad on top of the module
+
+The foam pad should be placed on top of the module over the MSF logo. This will prevent the module from moving around and disconnecting in the radio due to vehicle vibrations.
+
+> TODO : Add picture
+
+#### 6. Slot the SMA connector in the back of the radio
+
+Be careful to route the coaxial cable correctly, and not to pinch it.
+
+> TODO : Add picture
+
+#### 7. Reassemble the radio
+
+> TODO : Add picture
+
+#### 8. Test with an external GPS antenna
+
+To confirm the module is working, connect an external GPS antenna to the SMA connector.
+
+> Note : The antenna should be outside facing the sky, and have a clear view of the sky.  
+> TODO : Add picture
+
+#### 9. Install antenna in vehicle
+
+The antenna can be installed on the roof of the vehicle, or on the dashboard behind the windshield. The antenna should have a clear view of the sky.
+
+If an existing GPS module was present, the new GPS antenna can be put in its place.
+
+> Note : be careful tot to pinch the coaxial cable, and to route it to the back of the radio mounting location.  
+> Note : only use the provided SMA antenna.
+
+#### 10. Reinstall the radio in the vehicle
+
+Refer to the installer/mechanic/radio operator who installed the radio for exact steps to reinstall the radio in the vehicle.
+
+> TODO : Add picture
+
+#### 11. Test the GPS module
+
+Turn on the radio, and check the GPS status. The GPS status should be visible on the radio display.
+
+> TODO : Add picture
 
 ## Module Design Specifications
 
@@ -164,7 +234,6 @@ C.  Optional
 | AXK640347YG Connector                      | Mouser | 1.60     | 1      | 1.60      |
 |                                            |        |          |        |           |
 | **Total**                                  |        |          |        | 13.6687   |
-
 
 ## Acknowledgements
 
