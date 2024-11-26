@@ -92,19 +92,19 @@ The UT-GPS module should be inserted in the expansion port, with the U.FL connec
 
 ![UT-GPS in expansion port](./images/radio-module-install.jpg)
 
-#### 5b. If not present, put foam pad on top of the module
-
-The foam pad should be placed on top of the module over the MSF logo. This will prevent the module from moving around and disconnecting in the radio due to vehicle vibrations.
-
-![Foam pad on top of module](./images/radio-module-foam-install.jpg)
-![Foam pad on top of module - done](./images/radio-module-foam-install-2.jpg)
-
 #### 6. Slot the SMA connector in the back of the radio
 
 Be careful to route the coaxial cable correctly, and not to pinch it.
 
 ![SMA connector in radio](./images/radio-module-pigtail-install.jpg)
 ![SMA connector in radio - done](./images/radio-module-pigtail-install-2.jpg)
+
+#### 6b. If not present, put foam pad on top of the module
+
+The foam pad should be placed on top of the module over the MSF logo. This will prevent the module from moving around and disconnecting in the radio due to vehicle vibrations.
+
+![Foam pad on top of module](./images/radio-module-foam-install.jpg)
+![Foam pad on top of module - done](./images/radio-module-foam-install-2.jpg)
 
 #### 7. Reassemble the radio
 
