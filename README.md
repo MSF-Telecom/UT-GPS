@@ -121,7 +121,7 @@ To confirm the module is working, connect an external GPS antenna to the SMA con
 
 > Note : The antenna should be outside facing the sky, and have a clear view of the sky.  
 
-![GPS signal received](./images/radio-gps-signal.jpg)  
+![GPS signal received](./images/radio-GPS-signal.jpg)   
 *The GPS signal icon should be visible on the radio display (top center).*
 
 #### 10. Install antenna in vehicle
