@@ -36,11 +36,21 @@ It was first tested on terrain in Burundi, with 10 hand-assembled prototypes; af
 
 ### Installation
 
+#### Kit overview
+
+![Kit overview 1](./images/kit-connectors.jpg)
+![Kit overview 2](./images/kit-logos.jpg)
+
+The kit contains the following items (top to bottom, left to right) :
+
+- U.FL to SMA pigtail
+- UT-GPS module
+- SMA GPS Antenna
+- Foam pad
+
 #### 1. Remove the radio from the vehicle
 
 Refer to the installer/mechanic/radio operator who installed the radio for exact steps to remove the radio from the vehicle.
-
-> TODO : Add picture
 
 #### 1b. Remove existing GPS module
 
@@ -48,45 +58,73 @@ If an existing GPS module is present, remove it from the vehicle.
 
 #### 2. Remove the bottom cover of the radio
 
-> TODO : Add picture
+Remove the 4 screws holding the bottom cover of the radio.
+
+![Opened radio](./images/radio-open.jpg)
 
 #### 3. Cut the plastic tab next to the power cable at the back of the housing
 
-> TODO : Add picture
+![Cutting the plastic tab](./images/radio-flap-cut.jpg)
+
 > Note : be careful not to cut the power cables.
+
+Once removed you should have a hole that looks like this :
+
+![Plastic tab removed](./images/radio-flap-cut-2.jpg)
 
 #### 4. If not connected, connect the U.FL to SMA cable to the UT-GPS module
 
-> TODO : Add picture
+The U.FL to SMA cable should be connected to the U.FL connector on the UT-GPS module.
+
+![UT-GPS & U.FL](./images/module-ufl-sma.jpg)
+![UT-GPS & U.FL close-up](./images/module-ufl-sma-close.jpg)
+
+Once connected, the assembly should look like this :
+
+![UT-GPS & U.FL connected](./images/module-pigtail-assembled.jpg)
+![UT-GPS & U.FL connected - side](./images/module-pigtail-assembled-side.jpg)
 
 #### 5. Insert the UT-GPS module in the expansion port
 
-> TODO : Add picture
+The UT-GPS module should be inserted in the expansion port, with the U.FL connector facing the back of the radio.
+
+> Note : Be careful while connecting the UT-GPS, as the expansion port is fragile.
+
+![UT-GPS in expansion port](./images/radio-module-install.jpg)
 
 #### 5b. If not present, put foam pad on top of the module
 
 The foam pad should be placed on top of the module over the MSF logo. This will prevent the module from moving around and disconnecting in the radio due to vehicle vibrations.
 
-> TODO : Add picture
+![Foam pad on top of module](./images/radio-module-foam-install.jpg)
+![Foam pad on top of module - done](./images/radio-module-foam-install-2.jpg)
 
 #### 6. Slot the SMA connector in the back of the radio
 
 Be careful to route the coaxial cable correctly, and not to pinch it.
 
-> TODO : Add picture
+![SMA connector in radio](./images/radio-module-pigtail-install.jpg)
+![SMA connector in radio - done](./images/radio-module-pigtail-install-2.jpg)
 
 #### 7. Reassemble the radio
 
-> TODO : Add picture
+Put the cover back on the radio, and screw it back in place.
 
-#### 8. Test with an external GPS antenna
+#### 8. Flash the radio with new profile
+
+The radio should be flashed with a new profile that includes the GPS module on the **internal** connector at **9600** baud.  
+This profile should be available to the radio operator who installed the radio.
+
+#### 9. Test with an external GPS antenna
 
 To confirm the module is working, connect an external GPS antenna to the SMA connector.
 
 > Note : The antenna should be outside facing the sky, and have a clear view of the sky.  
-> TODO : Add picture
 
-#### 9. Install antenna in vehicle
+![GPS signal received](./images/radio-gps-signal.jpg)  
+*The GPS signal icon should be visible on the radio display (top center).*
+
+#### 10. Install antenna in vehicle
 
 The antenna can be installed on the roof of the vehicle, or on the dashboard behind the windshield. The antenna should have a clear view of the sky.
 
@@ -95,17 +133,14 @@ If an existing GPS module was present, the new GPS antenna can be put in its pla
 > Note : be careful tot to pinch the coaxial cable, and to route it to the back of the radio mounting location.  
 > Note : only use the provided SMA antenna.
 
-#### 10. Reinstall the radio in the vehicle
+#### 11. Reinstall the radio in the vehicle
 
 Refer to the installer/mechanic/radio operator who installed the radio for exact steps to reinstall the radio in the vehicle.
 
-> TODO : Add picture
+#### 12. Test the GPS module
 
-#### 11. Test the GPS module
-
-Turn on the radio, and check the GPS status. The GPS status should be visible on the radio display.
-
-> TODO : Add picture
+Turn on the radio, and check the GPS status. The GPS status should be visible on the radio display.  
+*The same icon as in step 8 should be visible on the radio display.*
 
 ## Module Design Specifications
 
